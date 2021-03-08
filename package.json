@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@redocly/openapi-cli": "^1.0.0-beta.32",
+    "redoc-cli": "^0.10.2"
+  },
+  "scripts": {
+    "lint": "npm exec @redocly/openapi-cli lint beta/gather-oas30.yaml",
+    "start": "npm exec redoc-cli serve --watch beta/gather-oas30.yaml"
+  }
+}
